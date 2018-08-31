@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Dooodleista';
+    src: url('fonts/Dooodleista.ttf');
+}
+
+body{
+    margin: 0%;
+    background-image: url(../img/background1.jpg);
+    position: static;
+    position: unset;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff52;
+    margin-top: 2%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(9, 52, 74);    
+    padding: 14px 227px;
+    text-decoration: none;    
+    display:inline-block;
+    text-align: justify;
+    font-size: 170%;    
+    font-weight: bold;
+    font-family: "Dooodleista";
+    word-wrap:break-word;
+    
+}
+
+#logo{
+    height: 700%;
+    margin-left: 39%;
+}
+
+
+li a:hover:not(.active) {
+    background-color: #7ecad294;
+}
+
+.active {
+    background-color: #7ecad2d5;
+}

@@ -1,0 +1,44 @@
+#nome{
+    width: 90%;
+}
+
+#txt_nome{
+    padding-left: 2.8%;
+}
+
+#email{
+    width: 64.8%;
+}
+
+#txt_email{
+    padding-left: 2.6%;
+}
+
+#telefone{
+    width: 15%;
+}
+
+#txt_telefone{
+    padding-left: 5%;
+}
+
+#txt_cep{
+    padding-left: 3.5%;
+}
+
+#rua{
+    width: 40%;
+}
+
+#cidade{
+    width: 30%;
+}
+
+#mensagem{
+    width: 90%;
+    height: 15%;
+}
+
+#txt_mensagem{
+    padding-left: 0.5%;
+}

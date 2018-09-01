@@ -3,11 +3,12 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/layout.css">
-    <script src="script/javascript.js"></script> 
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/contato.css">
+    <script src="../script/javascript.js"></script> 
 
 <title>Tour Paradise</title>
-<link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+<link rel="shortcut icon" href="../img/icon.png" type="image/x-icon">
 
 </head>
 
@@ -18,7 +19,7 @@
 <header> <!-- Cabe�alho onde s�o colocados o logo e nome da empresa -->
 
 <hgroup>
-<img src ="img/logo.png" id="logo" />
+<img src ="../img/logo.png" id="logo" />
 </hgroup>
 
 </header>
@@ -26,34 +27,35 @@
 <nav> <!-- Link para p�ginas do site. Podem ser colocados sub-links -->
 <ul>
 <li> </center><a href="index.html">HOME</a></li>
-<li><a href="\productsandservices.html"> PRODUCTS AND SERVICES</a></li>
+<li><a href="produtos_servicos.html"> PRODUCTS AND SERVICES</a></li>
 <li><a href="contato.html"> CONTACT </a></li>
 </ul>
 </nav>
 
+
 <div class="container">
   <form action="action_page.php">
 
-    <label for="nome">Nome Completo:</label>
+    <label for="nome" id="txt_nome">Nome:</label>
     <input type="text" id="nome" name="nome" placeholder="Seu nome..">
 
-    <label for="email" class="contato">E-mail:</label>
+    <label for="email" id="txt_email">E-mail:</label>
     <input type="text" id="email" name="email" placeholder="Seu e-mail..">
 
-    <label for="telefone" class="contato">Telefone:</label>
+    <label for="telefone" id="txt_telefone">Telefone:</label>
     <input type="numeric" id="telefone" name="telefone" placeholder="Seu telefone..">
-    
-    <label for="cep">CEP:</label>
+
+    <label for="cep" id="txt_cep">CEP:</label>
     <input type="text" id="cep" name="cep" placeholder="Seu CEP..">
 
-    <label for="rua">Rua:</label>
+    <label for="rua" id="txt_rua">Rua:</label>
     <input type="text" id="rua" name="rua" placeholder="Sua rua..">
 
-     <label for="cidade">Cidade:</label>
+     <label for="cidade" id="txt_cidade">Cidade:</label>
     <input type="text" id="cidade" name="cidade" placeholder="Sua cidade..">
 
-    <label for="mensagem">Mensagem</label>
-    <textarea id="mensagem" name="mensagem" placeholder="Deixe sua mensagem.." style="height:200px"></textarea>
+    <label for="mensagem" id="txt_mensagem">Mensagem:</label>
+    <textarea id="mensagem" name="mensagem" placeholder="Deixe sua mensagem.."></textarea> 
 
     <input type="submit" value="Enviar">
 

@@ -1,5 +1,5 @@
-<script src="script/jquery-3.1.1.min.js"></script> 
-<script> 
+<script src="jquery-3.3.1.min.js"></script>
+ 
 $(document).ready(function(){ 
     $("#cep").change(function(){ 
     cep = $("#cep").val(); 
@@ -10,4 +10,3 @@ $(document).ready(function(){
     }, "json"); 
 }); 
 }); 
-</script>

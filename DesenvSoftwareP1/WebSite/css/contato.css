@@ -1,9 +1,23 @@
+
+@font-face {
+    font-family: 'Dooodleista';
+    src: url('fonts/Dooodleista.ttf');
+}
+
+
+form{
+    font-family: "Dooodleista";
+    font-size: 143%;
+    color: rgb(9, 52, 74);
+    font-weight: bold;
+}
+
 #nome{
     width: 90%;
 }
 
 #txt_nome{
-    padding-left: 2.8%;
+    padding-left: 3.3%;
 }
 
 #email{
@@ -11,7 +25,7 @@
 }
 
 #txt_email{
-    padding-left: 2.6%;
+    padding-left: 2.67%;
 }
 
 #telefone{
@@ -19,11 +33,11 @@
 }
 
 #txt_telefone{
-    padding-left: 5%;
+    padding-left: 4.5%;
 }
 
 #txt_cep{
-    padding-left: 3.5%;
+    padding-left: 3.9%;
 }
 
 #rua{
@@ -31,7 +45,7 @@
 }
 
 #cidade{
-    width: 30%;
+    width: 28%;
 }
 
 #mensagem{
@@ -40,5 +54,9 @@
 }
 
 #txt_mensagem{
-    padding-left: 0.5%;
+    padding-left: 1.5%;
+}
+
+.box_mensagem{
+    vertical-align: middle;
 }

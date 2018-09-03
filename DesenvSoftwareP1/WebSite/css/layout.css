@@ -26,11 +26,12 @@ li {
 }
 
 li a {
-    display: block;
+   
+   
     color: rgb(9, 52, 74);    
     padding: 14px 227px;
     text-decoration: none;    
-    display:inline-block;
+    display:inline;
     text-align: justify;
     font-size: 170%;    
     font-weight: bold;
@@ -53,7 +54,7 @@ li a:hover:not(.active) {
     background-color: #7ecad2d5;
 }
 
-input[type=text], input[type=numeric], select, textarea {
+input[type=text], input[type=numeric],input[type=email],input[type=tel], select, textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px; 

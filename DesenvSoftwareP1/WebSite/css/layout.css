@@ -10,33 +10,6 @@ body{
     position: unset;
     background-repeat: no-repeat;
     background-size: 100%;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff52;
-    margin-top: 2%;
-}
-
-li {
-    float: left;
-}
-
-li a {
-   
-   
-    color: rgb(9, 52, 74);    
-    padding: 14px 227px;
-    text-decoration: none;    
-    display:inline;
-    text-align: justify;
-    font-size: 170%;    
-    font-weight: bold;
-    font-family: "Dooodleista";
-    word-wrap:break-word;
     
 }
 
@@ -46,10 +19,35 @@ li a {
 }
 
 
-li a:hover:not(.active) {
-    background-color: #7ecad294;
+nav {
+    width: 100%;
+    background-color: #ffffff52; 
+    border-right: none;
 }
 
+nav ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2%;
+}
+
+nav ul li {
+    list-style: none;    
+    font-size: 170%;    
+    font-weight: bold;      
+    float: left;
+    text-align: center;  
+    width: 16.6%; /* fallback for non-calc() browsers */
+    width: calc(100% / 3);
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(9, 52, 74);
+    font-family: "Dooodleista";  
+}
 .active {
     background-color: #7ecad2d5;
 }
@@ -83,4 +81,70 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0.58);
     padding: 20px;
+    
+}
+
+#title{
+    font-family: 'Dooodleista';
+    font-size: 310%;
+    color: rgb(9, 52, 74); 
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left:39%;
+}
+
+#teste{
+    font-family: 'Dooodleista';
+    font-size: 200%;
+    color: rgb(9, 52, 74); 
+    font-weight: bold;
+    margin-top: 1%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+#rodape{
+    font-style: italic;
+    background-color:rgb(9, 52, 74);
+    text-align: center;
+    font-size:8pt;
+    font-family: Verdana;
+    font-weight:bold;
+    width:100%;
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    height: 10%;
+    padding:0%;
+    padding-right: 0%;
+    padding-left: 2%;
+    padding-top: 0%;
+    margin-bottom: -14%;
+    color: white;
+
+} 
+
+
+#col{
+    float:center;
+    color:#000;
+    text-align:justify; 
+    line-height:80%; 
+    font-size: 110%; 
+    background-color:  rgba(255, 255, 255, 0.58);
+    border-radius: 5px;    
+    padding: 20px;
+    margin-top: 3%;
+}
+
+#art{
+    float:center; 
+    color:#000;
+    text-align:justify; 
+    line-height:80%; 
+    font-size: 110%; 
+    background-color:  rgba(255, 255, 255, 0.58);
+    border-radius: 5px;    
+    padding: 20px;
+   
 }
